@@ -26,36 +26,19 @@ header("Location: vbt.php");
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Add Notes</title>
-    <link rel="stylesheet" href="style1.css">
-    <script type="text/javascript" src="Signup.js"> </script>
-</head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" >
 <body>
-    <header>
-        <div class = "headcontainer">
-            <div class="symbol">
-                 <a href="index.html"><img src="logo.JPG" width="max" height="67px" alt="Avatar" class="avatar"></a>
-            </div>
-            <div class="title">
-                <h1>CHAMBER ARENA</h1>
-            </div>
-            <div class="usersinfo">
-              >
-            </div>
-        </div>
-    </header>
-    <div  class="btn1">
-        <a href="Logout.php">Log-Out</a>
-    </div>
-    <section style="text-align: center;">
-            <h1>About Booking </h1>
+    <div class="File">
+              
+                    
+                <h1>File Management System</h1>
+    
 
-            <form id="editnote" method = "POST">
+   <p class="p2">You can change following things in your File:</p>
+<p class="p2">You can add data to your file here:</p>
+
+        
+<form method = "POST">
 <input type = "hidden" name= "submitted" value ="1"/>
                 <textarea name="message" rows="20" cols="200" placeholder="Enter more information about Your Booking"></textarea>
             </br>
@@ -68,12 +51,15 @@ header("Location: vbt.php");
 
                 <input type="submit" value="Submit">
 <input type="submit" value="Delete">
-        </section>
-          </form>
-
-    <footer style="margin-top: 390px;">
-        <p>&copy; 2020 P.P. All rights reserved.</p>
-    </footer>
-    <script type = "text/javascript"  src = "editnote_r.js" ></script>
+</form>
+   
+   
 </body>
 </html>
+
+
+
+
+
+
+

@@ -1,47 +1,16 @@
 
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
-    <style>
-        section{
-    margin: 20px;
-    padding: 10px;
-   
-}
-table,th,tr{
-    border: 2px solid black;
-  border-collapse: collapse;
-}
-table{
-    box-shadow: 5px 5px grey;
-}
-    </style>
-</head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" >
 <body>
-    <header>
-        <div class = "headcontainer">
-            <div class="symbol">
-                <a href="Login.php"><img src="logo.JPG" width="max" height="67px" alt="Avatar" class="avatar"></a>
-            </div>
-            <div class="title">
-                <h1>CHAMBER ARENA</h1>
-            </div>
-           
-        </div>
-    </header>
-    <div  class="btn1">
-        <a href="Logout.php">Log-Out</a>
-    </div>
-    <section>
-        <h1 style="text-align: center;" >Book Your Rooms and Manage Your Bookings Here</h1>
-    </section>
-    <article>
+    <div class="File">
+              
+                    
+                <h1>File Management System</h1>
+    
+        <p class="p1">Listed are all the Files/ Documents in the Directory</p>
+   <p class="p2">You can change following things in your File:</p>
+<p class="p2">1. You can add data in your file from the Add/Remove Data link corresponding to your File name which can be viewed in the File data column,</p>
+<p class="p2">2. You can also Add/Delete File to your Directory. (Sorry!! Does not work.)</p>
         <table style="width: 100%;">
             <tr>
                 <th>File Name</th>
@@ -69,8 +38,11 @@ table{
                 <th>  <?echo $r2['Filename'] ?></th>
                 <th>  <?echo $r2['FileData'] ?> </th>
                 <th> <?echo $r2['Date'] ?> </th>
-                <th><a href="http://www2.cs.uregina.ca/~vbt939/CS330/XYZ.php?f_ID=<?echo "1" ?>" style="color:red;font-size: 20px;">Edit/Delete</a></th>
+                <th><a href="http://www2.cs.uregina.ca/~vbt939/CS330/XYZ.php?f_ID=<?echo "1" ?>" style="color:red;font-size: 20px;">Add/Remove Data</a></th>
                
+</tr>
+<tr>
+<th> Only one file in the directory!!</th>
 </tr>
 
 <?php
@@ -79,10 +51,9 @@ table{
 ?>
 
 
-        </table>
-    </article>
-        <footer style="margin-top: 500px;">
-        <p>&copy; 2020 P.P. All rights reserved.</p>
-    </footer>
-</body>
+  </table>
+</div>
+     
+    
+    </body>
 </html>
