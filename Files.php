@@ -52,6 +52,10 @@
 
 
   </table>
+ <Buttton>
+<a href="http://www2.cs.uregina.ca/~vbt939/CS330/Directory.html">Back to directory</a>
+  </Button>
+
 </div>
      
     

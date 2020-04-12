@@ -45,7 +45,11 @@ header("Location: Files.php");
 
                 <input type="submit" value="Submit">
 <input type="submit" value="Delete">
+
 </form>
+ <Button>
+               <a href="http://www2.cs.uregina.ca/~vbt939/CS330/Files.php">Back to Files</a>
+            </Button>
    
    
 </body>
