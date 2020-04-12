@@ -4,7 +4,7 @@ CS 330 Assignment# 5
 
 Topic of OS For my project is about "File Management".
 
-http://www2.cs.uregina.ca/~vbt939/CS330/Login.html
+Link to Project: http://www2.cs.uregina.ca/~vbt939/CS330/Login.html
 
 Brief Description Of my project:
 - I have tried to describe how file management works in this project. First i 
