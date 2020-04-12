@@ -38,7 +38,7 @@
                 <th>  <?echo $r2['Filename'] ?></th>
                 <th>  <?echo $r2['FileData'] ?> </th>
                 <th> <?echo $r2['Date'] ?> </th>
-                <th><a href="http://www2.cs.uregina.ca/~vbt939/CS330/XYZ.php?f_ID=<?echo "1" ?>" style="color:red;font-size: 20px;">Add/Remove Data</a></th>
+                <th><a href="http://www2.cs.uregina.ca/~vbt939/CS330/Add_data.php?f_ID=<?echo "1" ?>" style="color:red;font-size: 20px;">Add/Remove Data</a></th>
                
 </tr>
 <tr>

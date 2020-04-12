@@ -12,7 +12,7 @@ if (isset($_POST["submitted"]) && $_POST["submitted"])
 $cc = $_POST["message"];
 $change = "UPDATE FileMnge SET FileData = '$cc' WHERE f_ID = '1'";
 $r3 = $db->query($change);
-header("Location: vbt.php");
+header("Location: Files.php");
 
 }
 
@@ -21,7 +21,7 @@ if (isset($_POST["Delete"]) && $_POST["Delete"])
 $cc = $_POST["message"];
 $change = "UPDATE FileMnge SET FileData = '' WHERE f_ID = '1'";
 $r3 = $db->query($change);
-header("Location: vbt.php");
+header("Location: Files.php");
 }
 
 ?>
@@ -41,13 +41,7 @@ header("Location: vbt.php");
 <form method = "POST">
 <input type = "hidden" name= "submitted" value ="1"/>
                 <textarea name="message" rows="20" cols="200" placeholder="Enter more information about Your Booking"></textarea>
-            </br>
-                <label  id="note_msg" class="err_msg"></label>
-            </br>
-                <label  id="notecount_msg" class="err_msg"></label>
-       
-            </br>  
-                <input type="hidden" id="roomId" name="roomId" value="">
+                   <input type="hidden" id="roomId" name="roomId" value="">
 
                 <input type="submit" value="Submit">
 <input type="submit" value="Delete">
